@@ -70,13 +70,4 @@ describe("server", () => {
 
     expect(winery2.length).toBe(0);
   });
-
-//   it(",should return an empty array",async()=>{
-//     const winery = await dbHelper.insert({ winery_name: "Troon" });
-    
-//     const winery2 = await dbHelper.remove(winery.id);
-    
-//     expect(winery2.length).toBe(0);
-
-//   })
  });
